@@ -73,16 +73,16 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Vocabulary Definition {: vocabulary}
-     3.1.  Search {: vocab-search}
-     3.2.  AI Input {: vocab-ai-input}
-     3.3.  AI Training {: vocab-ai-train}
+   3.  Vocabulary Definition
+     3.1.  Search
+     3.2.  AI Input
+     3.3.  AI Training
    4.  Usage Category Labels
    5.  Security Considerations
    6.  IANA Considerations
    7.  Addendum
    8.  Normative References
-   Acknowledgments
+   Appendix A.  Acknowledgments
    Author's Address
 
 1.  Introduction
@@ -111,16 +111,16 @@ Table of Contents
    and supplied to a model to condition the generated output.  See
    [[SUBSTITUTIVE-VOCAB]]
 
-3.  Vocabulary Definition {: vocabulary}
+3.  Vocabulary Definition
 
-3.1.  Search {: vocab-search}
+3.1.  Search
 
    The act of using one or more assets to build a search index and
    provide Search Results.  Search does not include providing AI-
    generated search summaries.  The use of assets for Search is a proper
    subset of Automated Processing usage.
 
-3.2.  AI Input {: vocab-ai-input}
+3.2.  AI Input
 
    The act of inputting an asset or assets into one or more AI models
    for purposes of retrieval-augmented generation, grounding, or other
@@ -128,26 +128,29 @@ Table of Contents
    use of assets for AI Input is a proper subset of Automated Processing
    usage.
 
-3.3.  AI Training {: vocab-ai-train}
+3.3.  AI Training
 
    The act of training or fine-tuning AI models.  The use of assets for
    AI Training is a proper subset of Automated Processing usage.
 
 4.  Usage Category Labels
 
-   Each usage category in [] (vocabulary) is mapped to a short textual
-   label.  The table below (Table 2) tabulates this mapping.
+   Each usage category in *Vocabulary Definition* is mapped to a short
+   textual label.  The table below (Table 2) tabulates this mapping.
 
-   | Category | Label | Reference |
+                 +=============+==========+=============+
+                 | Category    | Label    | Reference   |
+                 +=============+==========+=============+
+                 | Search      | search   | Section 3.1 |
+                 +-------------+----------+-------------+
+                 | AI Input    | ai-input | Section 3.2 |
+                 +-------------+----------+-------------+
+                 | AI Training | ai-train | Section 3.3 |
+                 +-------------+----------+-------------+
 
-   |:------------|:-----------|:-----------------------|
+                                 Table 1
 
-   | Search | search | [] (vocab-search) |
-
-   | AI Input | ai-input | [] (vocab-ai-input) |
-
-   | AI Training | ai-train | [] (vocab-ai-train) |  Table 1: Usage
-      Category Labels
+   Table 1: Usage Category Labels
 
 5.  Security Considerations
 
@@ -186,7 +189,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-Acknowledgments
+Appendix A.  Acknowledgments
 
    TODO acknowledge.
 

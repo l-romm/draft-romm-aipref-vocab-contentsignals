@@ -48,7 +48,7 @@ informative:
         role: editor
         organization: Mozilla
 
-
+...
 
 --- abstract
 

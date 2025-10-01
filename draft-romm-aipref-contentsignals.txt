@@ -165,19 +165,25 @@ Table of Contents
 
    The definition definition for Search (3.1) provided in this document
    may be replaced with the Search Category definition proposed in
-   [AIPREF-VOCAB] and copied below: Using one or more assets in a search
-   application that directs users to the location from which the assets
-   were retrieved.  Search applications can be complex and may serve
-   multiple purposes.  Only those parts of applications that direct
-   users to the location of an asset are included in this category of
-   use.  This includes the use of titles or excerpts from assets that
-   are used to help users select between multiple candidate options.
+   [AIPREF-VOCAB] and copied below:
+
+   Using one or more assets in a search application that directs users
+   to the location from which the assets were retrieved.  Search
+   applications can be complex and may serve multiple purposes.  Only
+   those parts of applications that direct users to the location of an
+   asset are included in this category of use.  This includes the use of
+   titles or excerpts from assets that are used to help users select
+   between multiple candidate options.
+
    Preferences for the Search category apply to those parts of
    applications that provide search capabilities, regardless of what
-   other preferences are stated.  Parts of applications that do not
-   direct users to the location of assets, such as summaries, are not
-   covered by this category of use.  The use of assets for Search is a
-   proper subset of Automated Processing usage.
+   other preferences are stated.
+
+   Parts of applications that do not direct users to the location of
+   assets, such as summaries, are not covered by this category of use.
+
+   The use of assets for Search is a proper subset of Automated
+   Processing usage.
 
 8.  References
 

@@ -29,11 +29,25 @@ author:
     email: "leahromm94@gmail.com"
 
 normative:
-  AIPREF-VOCAB: I-D.draft-ietf-aipref-vocab
-  SUBSTITUTIVE-VOCAB: I-D.draft-silver-aipref-vocab-substitutive
+  ASCII: RFC2119
+  FIELDS: RFC8174
 
 informative:
-  ROBOTSTXT: RFC9309
+  UTF8: RFC3629
+  ATTACH:
+    title: "A Vocabulary For Expressing AI Usage Preferences"
+    date: draft-ietf-aipref-attach-date
+    seriesinfo:
+      Internet-Draft: draft-ietf-aipref-vocab
+    author:
+      -
+        fullname: Paul Keller
+        organization: Open Future
+      -
+        fullname: Martin Thomson
+        role: editor
+        organization: Mozilla
+
 
 
 --- abstract

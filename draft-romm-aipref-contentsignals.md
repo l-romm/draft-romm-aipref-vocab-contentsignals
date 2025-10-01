@@ -65,7 +65,6 @@ This proposal introduces and aims to define a specific set of preferences to add
 {::boilerplate bcp14-tagged}
 
 For the purposes of this document, in addition to the definitions in {{Section 4 of AIPREF-VOCAB}}, the following terms are used:
-{: newline="true" spacing="compact"}
 
 * **Search Results:** hyperlinks and short excerpts returned from contents of the retrieved asset(s)
 * **Retrieval-Augmented Generation (RAG):** A technique where external content is retrieved at query time and supplied to a model to condition the generated output (B. Silver)

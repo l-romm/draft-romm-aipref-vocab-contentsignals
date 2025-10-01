@@ -68,7 +68,7 @@ For the purposes of this document, in addition to the definitions in {{Section 4
 {: newline="true" spacing="compact"}
 
 * **Search Results:** hyperlinks and short excerpts returned from contents of the retrieved asset(s)
-* **Retrieval-Augmented Generation (RAG):** A technique where external content is retrieved at query time and supplied to a model to condition the generated output. See {{SUBSTITUTIVE-VOCAB}}
+* **Retrieval-Augmented Generation (RAG):** A technique where external content is retrieved at query time and supplied to a model to condition the generated output (B. Silver)
 
 # Vocabulary Definition {#vocab}
 

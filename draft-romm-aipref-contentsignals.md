@@ -1,7 +1,7 @@
 ---
 title: "Vocabulary For Expressing Content Signals"
 abbrev: "AIPREF Content Signals"
-category: info
+category: std
 
 docname: draft-romm-aipref-contentsignals-latest
 submissiontype: IETF
@@ -62,7 +62,10 @@ This proposal introduces and aims to define a specific set of preferences to add
 
 # Conventions and Definitions
 
+{::boilerplate bcp14-tagged}
+
 For the purposes of this document, in addition to the definitions in {{Section 4 of AIPREF-VOCAB}}, the following terms are used:
+{: newline="true" spacing="compact"}
 
 * **Search Results:** hyperlinks and short excerpts returned from contents of the retrieved asset(s)
 * **Retrieval-Augmented Generation (RAG):** A technique where external content is retrieved at query time and supplied to a model to condition the generated output. See {{SUBSTITUTIVE-VOCAB}}

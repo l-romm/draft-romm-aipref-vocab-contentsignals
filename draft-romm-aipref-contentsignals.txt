@@ -4,8 +4,8 @@
 
 AI Preferences                                                   L. Romm
 Internet-Draft                                                Cloudflare
-Intended status: Informational                         26 September 2025
-Expires: 30 March 2026
+Intended status: Informational                            1 October 2025
+Expires: 4 April 2026
 
 
                Vocabulary For Expressing Content Signals
@@ -17,8 +17,7 @@ Abstract
    parties to express preferences regarding how digital assets are used
    by automated processing systems.  The proposal is for these
    categories to nest within the larger category of Automated
-   Processing, currently envisaged in the working group draft [[AIPREF-
-   VOCAB]]
+   Processing, currently envisaged in the [AIPREF-VOCAB].
 
 About This Document
 
@@ -53,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 March 2026.
+   This Internet-Draft will expire on 4 April 2026.
 
 Copyright Notice
 
@@ -81,6 +80,9 @@ Table of Contents
    5.  Security Considerations
    6.  IANA Considerations
    7.  Addendum
+   8.  References
+     8.1.  Normative References
+     8.2.  Informative References
    Appendix A.  Acknowledgments
    Author's Address
 
@@ -97,11 +99,14 @@ Table of Contents
 2.  Conventions and Definitions
 
    For the purposes of this document, in addition to the definitions in
-   [[AIPREF-VOCAB]], the following terms are used: * *Search Results:*
-   hyperlinks and short excerpts returned from contents of the retrieved
-   asset(s) * *Retrieval-Augmented Generation (RAG):* A technique where
-   external content is retrieved at query time and supplied to a model
-   to condition the generated output.  See [[SUBSTITUTIVE-VOCAB]]
+   Section 4 of [AIPREF-VOCAB], the following terms are used:
+
+   *  *Search Results:* hyperlinks and short excerpts returned from
+      contents of the retrieved asset(s)
+
+   *  *Retrieval-Augmented Generation (RAG):* A technique where external
+      content is retrieved at query time and supplied to a model to
+      condition the generated output.  See [SUBSTITUTIVE-VOCAB]
 
 3.  Vocabulary Definition
 
@@ -127,8 +132,8 @@ Table of Contents
 
 4.  Usage Category Labels
 
-   Each usage category in *Vocabulary Definition* is mapped to a short
-   textual label.  The table below (Table 2) tabulates this mapping.
+   Each usage category in Section 3 is mapped to a short textual label.
+   Table 1 specifies this mapping.
 
                  +=============+==========+=============+
                  | Category    | Label    | Reference   |
@@ -140,9 +145,7 @@ Table of Contents
                  | AI Training | ai-train | Section 3.3 |
                  +-------------+----------+-------------+
 
-                                 Table 1
-
-   Table 1: Usage Category Labels
+                      Table 1: Usage category labels
 
 5.  Security Considerations
 
@@ -156,19 +159,45 @@ Table of Contents
 
    The definition definition for Search (3.1) provided in this document
    may be replaced with the Search Category definition proposed in
-   [[AIPREF-VOCAB]] and copied below: Using one or more assets in a
-   search application that directs users to the location from which the
-   assets were retrieved.  Search applications can be complex and may
-   serve multiple purposes.  Only those parts of applications that
-   direct users to the location of an asset are included in this
-   category of use.  This includes the use of titles or excerpts from
-   assets that are used to help users select between multiple candidate
-   options.  Preferences for the Search category apply to those parts of
+   [AIPREF-VOCAB] and copied below: Using one or more assets in a search
+   application that directs users to the location from which the assets
+   were retrieved.  Search applications can be complex and may serve
+   multiple purposes.  Only those parts of applications that direct
+   users to the location of an asset are included in this category of
+   use.  This includes the use of titles or excerpts from assets that
+   are used to help users select between multiple candidate options.
+   Preferences for the Search category apply to those parts of
    applications that provide search capabilities, regardless of what
    other preferences are stated.  Parts of applications that do not
    direct users to the location of assets, such as summaries, are not
    covered by this category of use.  The use of assets for Search is a
    proper subset of Automated Processing usage.
+
+8.  References
+
+8.1.  Normative References
+
+   [AIPREF-VOCAB]
+              Keller, P. and M. Thomson, "A Vocabulary For Expressing AI
+              Usage Preferences", Work in Progress, Internet-Draft,
+              draft-ietf-aipref-vocab-03, 4 September 2025,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-aipref-
+              vocab-03>.
+
+   [SUBSTITUTIVE-VOCAB]
+              Silver, B., "Vocabulary For Expressing AI Substitutive
+              Usage", Work in Progress, Internet-Draft, draft-silver-
+              aipref-vocab-substitutive-00, 8 September 2025,
+              <https://datatracker.ietf.org/doc/html/draft-silver-
+              aipref-vocab-substitutive-00>.
+
+8.2.  Informative References
+
+   [ROBOTSTXT]
+              Koster, M., Illyes, G., Zeller, H., and L. Sassman,
+              "Robots Exclusion Protocol", RFC 9309,
+              DOI 10.17487/RFC9309, September 2022,
+              <https://www.rfc-editor.org/rfc/rfc9309>.
 
 Appendix A.  Acknowledgments
 

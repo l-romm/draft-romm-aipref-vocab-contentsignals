@@ -34,7 +34,7 @@ normative:
 
 informative:
   UTF8: RFC3629
-  ATTACH:
+  AIPREF-VOCAB:
     title: "A Vocabulary For Expressing AI Usage Preferences"
     date: draft-ietf-aipref-attach-date
     seriesinfo:

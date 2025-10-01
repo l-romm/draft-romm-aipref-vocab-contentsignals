@@ -24,9 +24,13 @@ venue:
 
 author:
  -
+    fullname: "Michael Tremante"
+    organization: Cloudflare
+    email: "mst@cloudflare.com"
+
     fullname: "Leah Romm"
     organization: Cloudflare
-    email: "leahromm94@gmail.com"
+    email: "lromm@cloudflare.com"
 
 normative:
   ASCII: RFC2119

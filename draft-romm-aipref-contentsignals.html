@@ -1065,7 +1065,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <time datetime="2025-10-01" class="published">1 October 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
-<dd class="intended-status">Informational</dd>
+<dd class="intended-status">Standards Track</dd>
 <dt class="label-expires">Expires:</dt>
 <dd class="expires"><time datetime="2026-04-04">4 April 2026</time></dd>
 <dt class="label-authors">Author:</dt>
@@ -1212,13 +1212,17 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-conventions-and-definitions">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-conventions-and-definitions" class="section-name selfRef">Conventions and Definitions</a>
       </h2>
-<p id="section-2-1">For the purposes of this document, in addition to the definitions in <span><a href="https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-03#section-4" class="relref">Section 4</a> of [<a href="#AIPREF-VOCAB" class="cite xref">AIPREF-VOCAB</a>]</span>, the following terms are used:<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-1">The key words "<span class="bcp14">MUST</span>", "<span class="bcp14">MUST NOT</span>", "<span class="bcp14">REQUIRED</span>", "<span class="bcp14">SHALL</span>", "<span class="bcp14">SHALL NOT</span>", "<span class="bcp14">SHOULD</span>", "<span class="bcp14">SHOULD NOT</span>", "<span class="bcp14">RECOMMENDED</span>", "<span class="bcp14">NOT RECOMMENDED</span>",
+"<span class="bcp14">MAY</span>", and "<span class="bcp14">OPTIONAL</span>" in this document are to be interpreted as
+described in BCP 14 <span>[<a href="#RFC2119" class="cite xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="cite xref">RFC8174</a>]</span> when, and only when, they
+appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-2">For the purposes of this document, in addition to the definitions in <span><a href="https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab#section-4" class="relref">Section 4</a> of [<a href="#AIPREF-VOCAB" class="cite xref">AIPREF-VOCAB</a>]</span>, the following terms are used:<a href="#section-2-2" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-2-2.1">
-          <p id="section-2-2.1.1"><strong>Search Results:</strong> hyperlinks and short excerpts returned from contents of the retrieved asset(s)<a href="#section-2-2.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-2-3.1">
+          <p id="section-2-3.1.1"><strong>Search Results:</strong> hyperlinks and short excerpts returned from contents of the retrieved asset(s)<a href="#section-2-3.1.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-2-2.2">
-          <p id="section-2-2.2.1"><strong>Retrieval-Augmented Generation (RAG):</strong> A technique where external content is retrieved at query time and supplied to a model to condition the generated output. See <span>[<a href="#SUBSTITUTIVE-VOCAB" class="cite xref">SUBSTITUTIVE-VOCAB</a>]</span><a href="#section-2-2.2.1" class="pilcrow">¶</a></p>
+        <li class="normal" id="section-2-3.2">
+          <p id="section-2-3.2.1"><strong>Retrieval-Augmented Generation (RAG):</strong> A technique where external content is retrieved at query time and supplied to a model to condition the generated output (B. Silver)<a href="#section-2-3.2.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 </section>
@@ -1349,13 +1353,21 @@ The use of assets for Search is a proper subset of Automated Processing usage.<a
 <a href="#section-8.1" class="section-number selfRef">8.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
-<dt id="AIPREF-VOCAB">[AIPREF-VOCAB]</dt>
+<dt id="ASCII">[ASCII]</dt>
         <dd>
-<span class="refAuthor">Keller, P.</span> and <span class="refAuthor">M. Thomson</span>, <span class="refTitle">"A Vocabulary For Expressing AI Usage Preferences"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-aipref-vocab-03</span>, <time datetime="2025-09-04" class="refDate">4 September 2025</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-03">https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-03</a>&gt;</span>. </dd>
+<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2119">https://www.rfc-editor.org/rfc/rfc2119</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="SUBSTITUTIVE-VOCAB">[SUBSTITUTIVE-VOCAB]</dt>
+<dt id="FIELDS">[FIELDS]</dt>
+        <dd>
+<span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8174">https://www.rfc-editor.org/rfc/rfc8174</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC2119">[RFC2119]</dt>
+        <dd>
+<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2119">https://www.rfc-editor.org/rfc/rfc2119</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC8174">[RFC8174]</dt>
       <dd>
-<span class="refAuthor">Silver, B.</span>, <span class="refTitle">"Vocabulary For Expressing AI Substitutive Usage"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-silver-aipref-vocab-substitutive-00</span>, <time datetime="2025-09-08" class="refDate">8 September 2025</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-silver-aipref-vocab-substitutive-00">https://datatracker.ietf.org/doc/html/draft-silver-aipref-vocab-substitutive-00</a>&gt;</span>. </dd>
+<span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8174">https://www.rfc-editor.org/rfc/rfc8174</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
@@ -1366,9 +1378,13 @@ The use of assets for Search is a proper subset of Automated Processing usage.<a
 <a href="#section-8.2" class="section-number selfRef">8.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
-<dt id="ROBOTSTXT">[ROBOTSTXT]</dt>
+<dt id="AIPREF-VOCAB">[AIPREF-VOCAB]</dt>
+        <dd>
+<span class="refAuthor">Keller, P.</span> and <span class="refAuthor">M. Thomson, Ed.</span>, <span class="refTitle">"A Vocabulary For Expressing AI Usage Preferences"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-aipref-vocab</span>, <time datetime="2025-10" class="refDate">October 2025</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab">https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="UTF8">[UTF8]</dt>
       <dd>
-<span class="refAuthor">Koster, M.</span>, <span class="refAuthor">Illyes, G.</span>, <span class="refAuthor">Zeller, H.</span>, and <span class="refAuthor">L. Sassman</span>, <span class="refTitle">"Robots Exclusion Protocol"</span>, <span class="seriesInfo">RFC 9309</span>, <span class="seriesInfo">DOI 10.17487/RFC9309</span>, <time datetime="2022-09" class="refDate">September 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9309">https://www.rfc-editor.org/rfc/rfc9309</a>&gt;</span>. </dd>
+<span class="refAuthor">Yergeau, F.</span>, <span class="refTitle">"UTF-8, a transformation format of ISO 10646"</span>, <span class="seriesInfo">STD 63</span>, <span class="seriesInfo">RFC 3629</span>, <span class="seriesInfo">DOI 10.17487/RFC3629</span>, <time datetime="2003-11" class="refDate">November 2003</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc3629">https://www.rfc-editor.org/rfc/rfc3629</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>

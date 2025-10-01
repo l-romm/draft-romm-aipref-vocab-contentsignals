@@ -2,10 +2,10 @@
 
 
 
-AI Preferences                                                   L. Romm
-Internet-Draft                                                Cloudflare
-Intended status: Standards Track                          1 October 2025
-Expires: 4 April 2026
+AI Preferences                                               M. Tremante
+Internet-Draft                                                   L. Romm
+Intended status: Standards Track                              Cloudflare
+Expires: 4 April 2026                                     1 October 2025
 
 
                Vocabulary For Expressing Content Signals
@@ -84,7 +84,7 @@ Table of Contents
      8.1.  Normative References
      8.2.  Informative References
    Appendix A.  Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -224,7 +224,12 @@ Appendix A.  Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
+
+   Michael Tremante
+   Cloudflare
+   Email: mst@cloudflare.com
+
 
    Leah Romm
    Cloudflare
